@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListWrapper", "ListWrapper.csproj", "{ACA4B9E9-61B3-43F8-BE4B-68187EF1E3B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA4B9E9-61B3-43F8-BE4B-68187EF1E3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA4B9E9-61B3-43F8-BE4B-68187EF1E3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA4B9E9-61B3-43F8-BE4B-68187EF1E3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA4B9E9-61B3-43F8-BE4B-68187EF1E3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EB6D803-8BC7-4AEE-92D3-26E5F800E2A0}
+	EndGlobalSection
+EndGlobal

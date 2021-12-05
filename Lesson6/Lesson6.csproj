@@ -5,16 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Strategy\**" />
-    <Compile Remove="Test\**" />
-    <Compile Remove="Use_Strategy\**" />
-    <EmbeddedResource Remove="Strategy\**" />
-    <EmbeddedResource Remove="Test\**" />
-    <EmbeddedResource Remove="Use_Strategy\**" />
-    <None Remove="Strategy\**" />
-    <None Remove="Test\**" />
-    <None Remove="Use_Strategy\**" />
-  </ItemGroup>
-
 </Project>

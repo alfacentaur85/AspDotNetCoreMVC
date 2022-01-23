@@ -1,0 +1,49 @@
+﻿@model List<Lesson7.Models.OfficeWorkingHouse>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table width="100%" border="2">
+        <thead>
+            <b>
+                <center>
+                    OFFICE HOURS WORKING
+                </center>
+            </b>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <font color="red" face="Arial">
+                        <b>
+                            Day Of Week:
+                        </b>
+                    </font>
+                </td>
+                <td>
+                    <font color="green" face="Arial">
+                        <b>
+                            Hours Of Working:
+                        </b>
+                    </font>
+                </td>
+            </tr>
+            @foreach (var listing in @Model)
+            {
+                <tr>
+                    <td>@listing.DayOfWeek</td>
+                    <td>@listing.HoursOfWorking</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
